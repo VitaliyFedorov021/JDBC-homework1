@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="classicmodels@SG-alevel-3162-master.servers.mongodirector.com" uuid="36f185ac-7117-4083-8373-beb75a1f5821">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://SG-alevel-3162-master.servers.mongodirector.com:3306/classicmodels</jdbc-url>
+    </data-source>
+  </component>
+</project>
