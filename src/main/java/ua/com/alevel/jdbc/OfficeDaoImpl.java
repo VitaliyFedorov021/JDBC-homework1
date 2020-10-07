@@ -33,7 +33,7 @@ public class OfficeDaoImpl implements OfficeDao {
         try {
             conn.setAutoCommit(false);
             statement = conn.createStatement();
-            set = statement.executeQuery("SELECT * FROM offices;");
+            set = statement.executeQuery("SELECT * FROM offices WHERE territory = 'EMEA';");
             offices = new ArrayList<>();
             while (set.next()) {
                 OfficeEntity office = new OfficeEntity();
