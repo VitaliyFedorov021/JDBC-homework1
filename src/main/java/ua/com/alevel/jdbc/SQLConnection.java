@@ -30,7 +30,7 @@ public class SQLConnection {
         ResultSet set = null;
         try {
             statement = connection.createStatement();
-            set = statement.executeQuery("SELECT * FROM offices;");
+            set = statement.executeQuery("SELECT * FROM offices WHERE territory = 'EMEA';");
         } catch (SQLException throwables) {
             throwables.printStackTrace();
         }
